@@ -13,4 +13,4 @@ or i had questions about how to incorporate those datasets. for now, just using 
   * I added a column/attribute called directory which corresponds to the directory from the
 data_loaders repository
   * The column `variable_desc` i manually fixed to use ontology terms.. We need a lookup file
-created in data_loaders to map these.
+created in data_loaders to map these.  There is an issue on this over in the data_loaders repository
