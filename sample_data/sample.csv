@@ -1,15 +1,15 @@
-directory,source,unit,location_name,location_type,variable_name,variable_desc,collected_on,value,medium
-usgs,USGS,wt. %,"36.4526,-109.1665",point,al,Concentration of elemental aluminium in soil,9/18/13,3.68,soil
-usgs,USGS,mg/kg,"36.4526,-109.1665",point,as,Concentration of elemental arsenic in soil,9/18/13,1.7,soil
-usgs,USGS,mg/kg,"36.4526,-109.1665",point,ba,Concentration of elemental barium in soil,9/18/13,907,soil
-usgs,USGS,mg/kg,"36.4526,-109.1665",point,be,Concentration of elemental beryllium in soil,9/18/13,1,soil
-usgs,USGS,mg/kg,"36.4526,-109.1665",point,bi,Concentration of elemental bismuth in soil,9/18/13,0.08,soil
-usgs,USGS,wt. %,"36.4526,-109.1665",point,ca,Concentration of elemental calcium in soil,9/18/13,0.37,soil
-waterquality,USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Calcium,Concentration of elemental calcium in liquid water,6/25/18,151,water
-waterquality,USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of elemental magnesium in liquid water,7/19/18,22.6,water
-waterquality,USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,Concentration of elemental sodium in liquid water,8/14/18,24.1,water
-waterquality,USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,Concentration of elemental lead in liquid water,8/14/18,3.33,water
-waterquality,USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Manganese,Concentration of elemental manganese in liquid water,8/14/18,84,water
-waterquality,USGS Arizona Water Science Center,ug/l,"35.13658330000000,-112.5417222000000",point,Strontium,Concentration of elemental strontium in liquid water,6/25/18,600,water
-waterquality,USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Zinc,Concentration of elemental zinc in liquid water,8/14/18,9,water
-waterquality,USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Mercury,Concentration of elemental mercury in liquid water,8/14/18,0.007,water
+observationID,directory,source,unit,location_name,location_type,variable_name,variable_desc,collected_on,value,medium
+1,usgs,USGS,wt. %,"36.4526,-109.1665",point,al,{concentration of elemental aluminium in soil},9/18/13,3.68,soil
+2,usgs,USGS,mg/kg,"36.4526,-109.1665",point,as,{concentration of elemental arsenic in soil},9/18/13,1.7,soil
+3,usgs,USGS,mg/kg,"36.4526,-109.1665",point,ba,{concentration of elemental barium in soil},9/18/13,907,soil
+4,usgs,USGS,mg/kg,"36.4526,-109.1665",point,be,{concentration of elemental beryllium in soil},9/18/13,1,soil
+5,usgs,USGS,mg/kg,"36.4526,-109.1665",point,bi,{concentration of elemental bismuth in soil},9/18/13,0.08,soil
+6,usgs,USGS,wt. %,"36.4526,-109.1665",point,ca,{concentration of elemental calcium in soil},9/18/13,0.37,soil
+7,waterquality,USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Calcium,{concentration of elemental calcium in liquid water},6/25/18,151,water
+8,waterquality,USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,{concentration of elemental magnesium in liquid water},7/19/18,22.6,water
+9,waterquality,USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,{concentration of elemental sodium in liquid water},8/14/18,24.1,water
+10,waterquality,USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,{concentration of elemental lead in liquid water},8/14/18,3.33,water
+11,waterquality,USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Manganese,{concentration of elemental manganese in liquid water},8/14/18,84,water
+12,waterquality,USGS Arizona Water Science Center,ug/l,"35.13658330000000,-112.5417222000000",point,Strontium,{concentration of elemental strontium in liquid water},6/25/18,600,water
+13,waterquality,USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Zinc,{concentration of elemental zinc in liquid water},8/14/18,9,water
+14,waterquality,USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Mercury,{concentration of elemental mercury in liquid water},8/14/18,0.007,water

@@ -1,5 +1,5 @@
 Our sample directory contains sample data for the UA-SRC project
-with theh sample.csv containing the first 10 lines of the following files
+with the `sample.csv`` containing the first 10 lines of the following files
 from the data_loaders repository:
 
 ```
@@ -14,3 +14,5 @@ or i had questions about how to incorporate those datasets. for now, just using 
 data_loaders repository
   * The column `variable_desc` i manually fixed to use ontology terms.. We need a lookup file
 created in data_loaders to map these.
+
+The `output` subdirectory contains results from the reasoning process.

@@ -1,0 +1,1204 @@
+@prefix : <urn:importInstance#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:importInstance> .
+
+<urn:importInstance> rdf:type owl:Ontology ;
+                      owl:imports <https://raw.githubusercontent.com/UA-SRC-data/srpdio/master/srpdio-full.owl> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/BFO_0000050
+<http://purl.obolibrary.org/obo/BFO_0000050> rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+rdf:type rdf:type owl:DatatypeProperty ;
+         rdfs:isDefinedBy rdf:type .
+
+
+###  urn:collected_on
+<urn:collected_on> rdf:type owl:DatatypeProperty ;
+                   rdfs:isDefinedBy <urn:collected_on> .
+
+
+###  urn:directory
+<urn:directory> rdf:type owl:DatatypeProperty ;
+                rdfs:isDefinedBy <urn:directory> .
+
+
+###  urn:location_name
+<urn:location_name> rdf:type owl:DatatypeProperty ;
+                    rdfs:isDefinedBy <urn:location_name> .
+
+
+###  urn:location_type
+<urn:location_type> rdf:type owl:DatatypeProperty ;
+                    rdfs:isDefinedBy <urn:location_type> .
+
+
+###  urn:medium
+<urn:medium> rdf:type owl:DatatypeProperty ;
+             rdfs:isDefinedBy <urn:medium> .
+
+
+###  urn:observationID
+<urn:observationID> rdf:type owl:DatatypeProperty ;
+                    rdfs:isDefinedBy <urn:observationID> .
+
+
+###  urn:source
+<urn:source> rdf:type owl:DatatypeProperty ;
+             rdfs:isDefinedBy <urn:source> .
+
+
+###  urn:unit
+<urn:unit> rdf:type owl:DatatypeProperty ;
+           rdfs:isDefinedBy <urn:unit> .
+
+
+###  urn:value
+<urn:value> rdf:type owl:DatatypeProperty ;
+            rdfs:isDefinedBy <urn:value> .
+
+
+###  urn:variable_desc
+<urn:variable_desc> rdf:type owl:DatatypeProperty ;
+                    rdfs:isDefinedBy <urn:variable_desc> .
+
+
+###  urn:variable_name
+<urn:variable_name> rdf:type owl:DatatypeProperty ;
+                    rdfs:isDefinedBy <urn:variable_name> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.obolibrary.org/obo/ENVO_00010483
+<http://purl.obolibrary.org/obo/ENVO_00010483> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://purl.obolibrary.org/obo/ENVO_01001569
+<http://purl.obolibrary.org/obo/ENVO_01001569> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001571
+<http://purl.obolibrary.org/obo/ENVO_01001571> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001572
+<http://purl.obolibrary.org/obo/ENVO_01001572> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001573
+<http://purl.obolibrary.org/obo/ENVO_01001573> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001574
+<http://purl.obolibrary.org/obo/ENVO_01001574> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001575
+<http://purl.obolibrary.org/obo/ENVO_01001575> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001576
+<http://purl.obolibrary.org/obo/ENVO_01001576> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001577
+<http://purl.obolibrary.org/obo/ENVO_01001577> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001578
+<http://purl.obolibrary.org/obo/ENVO_01001578> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001579
+<http://purl.obolibrary.org/obo/ENVO_01001579> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001580
+<http://purl.obolibrary.org/obo/ENVO_01001580> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001583
+<http://purl.obolibrary.org/obo/ENVO_01001583> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001584
+<http://purl.obolibrary.org/obo/ENVO_01001584> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001585
+<http://purl.obolibrary.org/obo/ENVO_01001585> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001586
+<http://purl.obolibrary.org/obo/ENVO_01001586> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001587
+<http://purl.obolibrary.org/obo/ENVO_01001587> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001588
+<http://purl.obolibrary.org/obo/ENVO_01001588> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001589
+<http://purl.obolibrary.org/obo/ENVO_01001589> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001590
+<http://purl.obolibrary.org/obo/ENVO_01001590> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001591
+<http://purl.obolibrary.org/obo/ENVO_01001591> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001592
+<http://purl.obolibrary.org/obo/ENVO_01001592> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001593
+<http://purl.obolibrary.org/obo/ENVO_01001593> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001594
+<http://purl.obolibrary.org/obo/ENVO_01001594> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001595
+<http://purl.obolibrary.org/obo/ENVO_01001595> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001596
+<http://purl.obolibrary.org/obo/ENVO_01001596> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001597
+<http://purl.obolibrary.org/obo/ENVO_01001597> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001598
+<http://purl.obolibrary.org/obo/ENVO_01001598> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001599
+<http://purl.obolibrary.org/obo/ENVO_01001599> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001600
+<http://purl.obolibrary.org/obo/ENVO_01001600> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001601
+<http://purl.obolibrary.org/obo/ENVO_01001601> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001602
+<http://purl.obolibrary.org/obo/ENVO_01001602> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001603
+<http://purl.obolibrary.org/obo/ENVO_01001603> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001604
+<http://purl.obolibrary.org/obo/ENVO_01001604> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/ENVO_01001605
+<http://purl.obolibrary.org/obo/ENVO_01001605> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000029> ,
+                                                        <http://purl.obolibrary.org/obo/BFO_0000141> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000276> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01000408> ,
+                                                        <http://purl.obolibrary.org/obo/ENVO_01001570> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000002
+<http://purl.obolibrary.org/obo/IAO_0000002> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000103
+<http://purl.obolibrary.org/obo/IAO_0000103> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000225> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000120
+<http://purl.obolibrary.org/obo/IAO_0000120> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000121
+<http://purl.obolibrary.org/obo/IAO_0000121> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000122
+<http://purl.obolibrary.org/obo/IAO_0000122> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000123
+<http://purl.obolibrary.org/obo/IAO_0000123> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000124
+<http://purl.obolibrary.org/obo/IAO_0000124> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000125
+<http://purl.obolibrary.org/obo/IAO_0000125> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000224
+<http://purl.obolibrary.org/obo/IAO_0000224> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://www.geneontology.org/formats/oboInOwl#Subset> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000226
+<http://purl.obolibrary.org/obo/IAO_0000226> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000225> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000227
+<http://purl.obolibrary.org/obo/IAO_0000227> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000225> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000228
+<http://purl.obolibrary.org/obo/IAO_0000228> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000225> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000229
+<http://purl.obolibrary.org/obo/IAO_0000229> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000225> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000410
+<http://purl.obolibrary.org/obo/IAO_0000410> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000409> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000420
+<http://purl.obolibrary.org/obo/IAO_0000420> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000409> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000421
+<http://purl.obolibrary.org/obo/IAO_0000421> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000409> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000423
+<http://purl.obolibrary.org/obo/IAO_0000423> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000428
+<http://purl.obolibrary.org/obo/IAO_0000428> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                      <http://purl.obolibrary.org/obo/BFO_0000031> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000027> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000030> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000078> ,
+                                                      <http://purl.obolibrary.org/obo/IAO_0000102> .
+
+
+###  https://www.wikidata.org/wiki/Q2
+<https://www.wikidata.org/wiki/Q2> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                            <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                            <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                            <http://purl.obolibrary.org/obo/BFO_0000030> ,
+                                            <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                            <http://purl.obolibrary.org/obo/ENVO_00002297> ,
+                                            <http://purl.obolibrary.org/obo/ENVO_01000799> ,
+                                            <http://purl.obolibrary.org/obo/ENVO_01000800> ,
+                                            <http://purl.obolibrary.org/obo/ENVO_01000804> ,
+                                            <http://purl.obolibrary.org/obo/ENVO_01000958> .
+
+
+###  https://www.wikidata.org/wiki/Q2306597
+<https://www.wikidata.org/wiki/Q2306597> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                  <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                  <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                  <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                  <http://purl.obolibrary.org/obo/ENVO_00000428> ,
+                                                  <http://purl.obolibrary.org/obo/ENVO_00000446> ,
+                                                  <http://purl.obolibrary.org/obo/ENVO_01000176> ,
+                                                  <http://purl.obolibrary.org/obo/ENVO_01000216> ,
+                                                  <http://purl.obolibrary.org/obo/ENVO_01000254> ,
+                                                  <http://purl.obolibrary.org/obo/ENVO_01001110> ,
+                                                  <http://purl.obolibrary.org/obo/RO_0002577> .
+
+
+###  https://www.wikidata.org/wiki/Q715269
+<https://www.wikidata.org/wiki/Q715269> rdf:type <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                                 <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                                 <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                                                 <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                                                 <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_00000000> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_00000012> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_00000015> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_00000063> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_00001999> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_00002297> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01000044> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01000617> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01000685> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01000813> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01001308> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01001319> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01001476> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01001477> ,
+                                                 <http://purl.obolibrary.org/obo/ENVO_01001479> .
+
+
+###  urn:environmentalTrait/1
+<urn:environmentalTrait/1> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000000> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000046> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/1> ;
+                           <urn:unit> "wt. %"^^xsd:string ;
+                           <urn:value> "3.68"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental aluminium in soil}"^^xsd:string ;
+                           <urn:variable_name> "al"^^xsd:string .
+
+
+###  urn:environmentalTrait/10
+<urn:environmentalTrait/10> rdf:type owl:NamedIndividual ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000019> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000111> ;
+                            <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/10> ;
+                            <urn:unit> "ug/l"^^xsd:string ;
+                            <urn:value> "3.33"^^xsd:float ;
+                            <urn:variable_desc> "{concentration of elemental lead in liquid water}"^^xsd:string ;
+                            <urn:variable_name> "Lead"^^xsd:string .
+
+
+###  urn:environmentalTrait/11
+<urn:environmentalTrait/11> rdf:type owl:NamedIndividual ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000022> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000114> ;
+                            <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/11> ;
+                            <urn:unit> "ug/l"^^xsd:string ;
+                            <urn:value> "84.0"^^xsd:float ;
+                            <urn:variable_desc> "{concentration of elemental manganese in liquid water}"^^xsd:string ;
+                            <urn:variable_name> "Manganese"^^xsd:string .
+
+
+###  urn:environmentalTrait/12
+<urn:environmentalTrait/12> rdf:type owl:NamedIndividual ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000034> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000126> ;
+                            <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/12> ;
+                            <urn:unit> "ug/l"^^xsd:string ;
+                            <urn:value> "600.0"^^xsd:float ;
+                            <urn:variable_desc> "{concentration of elemental strontium in liquid water}"^^xsd:string ;
+                            <urn:variable_name> "Strontium"^^xsd:string .
+
+
+###  urn:environmentalTrait/13
+<urn:environmentalTrait/13> rdf:type owl:NamedIndividual ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000045> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000137> ;
+                            <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/13> ;
+                            <urn:unit> "ug/l"^^xsd:string ;
+                            <urn:value> "9.0"^^xsd:float ;
+                            <urn:variable_desc> "{concentration of elemental zinc in liquid water}"^^xsd:string ;
+                            <urn:variable_name> "Zinc"^^xsd:string .
+
+
+###  urn:environmentalTrait/14
+<urn:environmentalTrait/14> rdf:type owl:NamedIndividual ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                     <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                     <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000023> ,
+                                     <http://purl.obolibrary.org/obo/SRPDIO_1000115> ;
+                            <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/14> ;
+                            <urn:unit> "ug/l"^^xsd:string ;
+                            <urn:value> "0.007"^^xsd:float ;
+                            <urn:variable_desc> "{concentration of elemental mercury in liquid water}"^^xsd:string ;
+                            <urn:variable_name> "Mercury"^^xsd:string .
+
+
+###  urn:environmentalTrait/2
+<urn:environmentalTrait/2> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000002> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000048> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/2> ;
+                           <urn:unit> "mg/kg"^^xsd:string ;
+                           <urn:value> "1.7"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental arsenic in soil}"^^xsd:string ;
+                           <urn:variable_name> "as"^^xsd:string .
+
+
+###  urn:environmentalTrait/3
+<urn:environmentalTrait/3> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000003> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000049> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/3> ;
+                           <urn:unit> "mg/kg"^^xsd:string ;
+                           <urn:value> "907.0"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental barium in soil}"^^xsd:string ;
+                           <urn:variable_name> "ba"^^xsd:string .
+
+
+###  urn:environmentalTrait/4
+<urn:environmentalTrait/4> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000004> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000050> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/4> ;
+                           <urn:unit> "mg/kg"^^xsd:string ;
+                           <urn:value> "1.0"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental beryllium in soil}"^^xsd:string ;
+                           <urn:variable_name> "be"^^xsd:string .
+
+
+###  urn:environmentalTrait/5
+<urn:environmentalTrait/5> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000005> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000051> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/5> ;
+                           <urn:unit> "mg/kg"^^xsd:string ;
+                           <urn:value> "0.08"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental bismuth in soil}"^^xsd:string ;
+                           <urn:variable_name> "bi"^^xsd:string .
+
+
+###  urn:environmentalTrait/6
+<urn:environmentalTrait/6> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000009> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000055> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/6> ;
+                           <urn:unit> "wt. %"^^xsd:string ;
+                           <urn:value> "0.37"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental calcium in soil}"^^xsd:string ;
+                           <urn:variable_name> "ca"^^xsd:string .
+
+
+###  urn:environmentalTrait/7
+<urn:environmentalTrait/7> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000009> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000101> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/7> ;
+                           <urn:unit> "mg/l"^^xsd:string ;
+                           <urn:value> "151.0"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental calcium in liquid water}"^^xsd:string ;
+                           <urn:variable_name> "Calcium"^^xsd:string .
+
+
+###  urn:environmentalTrait/8
+<urn:environmentalTrait/8> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000021> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000113> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/8> ;
+                           <urn:unit> "mg/l"^^xsd:string ;
+                           <urn:value> "22.6"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental magnesium in liquid water}"^^xsd:string ;
+                           <urn:variable_name> "Magnesium"^^xsd:string .
+
+
+###  urn:environmentalTrait/9
+<urn:environmentalTrait/9> rdf:type owl:NamedIndividual ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000019> ,
+                                    <http://purl.obolibrary.org/obo/BFO_0000020> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000001> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0000033> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0001241> ,
+                                    <http://purl.obolibrary.org/obo/PATO_0002182> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000033> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000125> ;
+                           <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/9> ;
+                           <urn:unit> "mg/l"^^xsd:string ;
+                           <urn:value> "24.1"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental sodium in liquid water}"^^xsd:string ;
+                           <urn:variable_name> "Sodium"^^xsd:string .
+
+
+###  urn:sample/1
+<urn:sample/1> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "9/18/13"^^xsd:string ;
+               <urn:directory> "usgs"^^xsd:string ;
+               <urn:location_name> "36.4526,-109.1665"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "soil"^^xsd:string ;
+               <urn:observationID> 1 ;
+               <urn:source> "USGS"^^xsd:string .
+
+
+###  urn:sample/10
+<urn:sample/10> rdf:type owl:NamedIndividual ,
+                         <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                         <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+                <urn:collected_on> "8/14/18"^^xsd:string ;
+                <urn:directory> "waterquality"^^xsd:string ;
+                <urn:location_name> "34.85224160000000,-112.0659940000000"^^xsd:string ;
+                <urn:location_type> "point"^^xsd:string ;
+                <urn:medium> "water"^^xsd:string ;
+                <urn:observationID> 10 ;
+                <urn:source> "USGS Arizona Water Science Center"^^xsd:string .
+
+
+###  urn:sample/11
+<urn:sample/11> rdf:type owl:NamedIndividual ,
+                         <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                         <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+                <urn:collected_on> "8/14/18"^^xsd:string ;
+                <urn:directory> "waterquality"^^xsd:string ;
+                <urn:location_name> "34.85224160000000,-112.0659940000000"^^xsd:string ;
+                <urn:location_type> "point"^^xsd:string ;
+                <urn:medium> "water"^^xsd:string ;
+                <urn:observationID> 11 ;
+                <urn:source> "USGS Arizona Water Science Center"^^xsd:string .
+
+
+###  urn:sample/12
+<urn:sample/12> rdf:type owl:NamedIndividual ,
+                         <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                         <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+                <urn:collected_on> "6/25/18"^^xsd:string ;
+                <urn:directory> "waterquality"^^xsd:string ;
+                <urn:location_name> "35.13658330000000,-112.5417222000000"^^xsd:string ;
+                <urn:location_type> "point"^^xsd:string ;
+                <urn:medium> "water"^^xsd:string ;
+                <urn:observationID> 12 ;
+                <urn:source> "USGS Arizona Water Science Center"^^xsd:string .
+
+
+###  urn:sample/13
+<urn:sample/13> rdf:type owl:NamedIndividual ,
+                         <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                         <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+                <urn:collected_on> "8/14/18"^^xsd:string ;
+                <urn:directory> "waterquality"^^xsd:string ;
+                <urn:location_name> "34.85224160000000,-112.0659940000000"^^xsd:string ;
+                <urn:location_type> "point"^^xsd:string ;
+                <urn:medium> "water"^^xsd:string ;
+                <urn:observationID> 13 ;
+                <urn:source> "USGS Arizona Water Science Center"^^xsd:string .
+
+
+###  urn:sample/14
+<urn:sample/14> rdf:type owl:NamedIndividual ,
+                         <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                         <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                         <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+                <urn:collected_on> "8/14/18"^^xsd:string ;
+                <urn:directory> "waterquality"^^xsd:string ;
+                <urn:location_name> "34.85224160000000,-112.0659940000000"^^xsd:string ;
+                <urn:location_type> "point"^^xsd:string ;
+                <urn:medium> "water"^^xsd:string ;
+                <urn:observationID> 14 ;
+                <urn:source> "USGS Arizona Water Science Center"^^xsd:string .
+
+
+###  urn:sample/2
+<urn:sample/2> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "9/18/13"^^xsd:string ;
+               <urn:directory> "usgs"^^xsd:string ;
+               <urn:location_name> "36.4526,-109.1665"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "soil"^^xsd:string ;
+               <urn:observationID> 2 ;
+               <urn:source> "USGS"^^xsd:string .
+
+
+###  urn:sample/3
+<urn:sample/3> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "9/18/13"^^xsd:string ;
+               <urn:directory> "usgs"^^xsd:string ;
+               <urn:location_name> "36.4526,-109.1665"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "soil"^^xsd:string ;
+               <urn:observationID> 3 ;
+               <urn:source> "USGS"^^xsd:string .
+
+
+###  urn:sample/4
+<urn:sample/4> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "9/18/13"^^xsd:string ;
+               <urn:directory> "usgs"^^xsd:string ;
+               <urn:location_name> "36.4526,-109.1665"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "soil"^^xsd:string ;
+               <urn:observationID> 4 ;
+               <urn:source> "USGS"^^xsd:string .
+
+
+###  urn:sample/5
+<urn:sample/5> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "9/18/13"^^xsd:string ;
+               <urn:directory> "usgs"^^xsd:string ;
+               <urn:location_name> "36.4526,-109.1665"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "soil"^^xsd:string ;
+               <urn:observationID> 5 ;
+               <urn:source> "USGS"^^xsd:string .
+
+
+###  urn:sample/6
+<urn:sample/6> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "9/18/13"^^xsd:string ;
+               <urn:directory> "usgs"^^xsd:string ;
+               <urn:location_name> "36.4526,-109.1665"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "soil"^^xsd:string ;
+               <urn:observationID> 6 ;
+               <urn:source> "USGS"^^xsd:string .
+
+
+###  urn:sample/7
+<urn:sample/7> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "6/25/18"^^xsd:string ;
+               <urn:directory> "waterquality"^^xsd:string ;
+               <urn:location_name> "35.13658330000000,-112.5417222000000"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "water"^^xsd:string ;
+               <urn:observationID> 7 ;
+               <urn:source> "USGS Arizona Water Science Center"^^xsd:string .
+
+
+###  urn:sample/8
+<urn:sample/8> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "7/19/18"^^xsd:string ;
+               <urn:directory> "waterquality"^^xsd:string ;
+               <urn:location_name> "34.53863606000000,-111.6940356000000"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "water"^^xsd:string ;
+               <urn:observationID> 8 ;
+               <urn:source> "USGS Arizona Water Science Center"^^xsd:string .
+
+
+###  urn:sample/9
+<urn:sample/9> rdf:type owl:NamedIndividual ,
+                        <http://purl.obolibrary.org/obo/BFO_0000001> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000002> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000004> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000024> ,
+                        <http://purl.obolibrary.org/obo/BFO_0000040> ,
+                        <http://purl.obolibrary.org/obo/ENVO_00010483> ;
+               <urn:collected_on> "8/14/18"^^xsd:string ;
+               <urn:directory> "waterquality"^^xsd:string ;
+               <urn:location_name> "34.85224160000000,-112.0659940000000"^^xsd:string ;
+               <urn:location_type> "point"^^xsd:string ;
+               <urn:medium> "water"^^xsd:string ;
+               <urn:observationID> 9 ;
+               <urn:source> "USGS Arizona Water Science Center"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi
