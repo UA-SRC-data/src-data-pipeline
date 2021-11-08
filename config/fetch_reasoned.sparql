@@ -10,15 +10,24 @@ prefix urn: <urn:>
 
 # Use the concat/group_concat function to push all plantStructurePresence types into an array within a field.
 # this enables ElasticSearch to index this easily while shrinking output file sizes
-SELECT ?observationID ?directory ?source ?location_name ?location_type ?collected_on ?medium ?unit ?variable_name ?variable_desc ?value
+SELECT ?observationID ?directory ?source ?location_name ?location_type ?collected_on ?medium ?unit ?variable_name ?variable_desc ?value 
 	(group_concat(distinct ?traitTypes;separator='|') as ?traits)
 
 WHERE {    
 	# Create a list of environmental Traits
     	?environmentalTrait rdf:type ?traitTypes .
+    	#?environmentalTrait rdfs:label ?traitLabels .
 
 	# Do not report namedindividual, not particularly useful in our output
     	FILTER (?traitTypes != <http://www.w3.org/2002/07/owl#NamedIndividual>) .
+	# Do not the higher level classes, which are not particularly useful
+    	FILTER (?traitTypes != obo:BFO_0000002) .
+    	FILTER (?traitTypes != obo:BFO_0000020) .
+    	FILTER (?traitTypes != obo:BFO_0000019) .
+    	FILTER (?traitTypes != obo:BFO_0000001) .
+    	FILTER (?traitTypes != obo:PATO_0002182) .
+    	FILTER (?traitTypes != obo:PATO_0000001) .
+    	FILTER (?traitTypes != obo:PATO_0001241) .
 
 	# The joins here are largely derived from the relations.csv file
 	# since these can be different for different projects we need to think carefully
