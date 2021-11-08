@@ -1,0 +1,5 @@
+alias,concept_uri,unique_key,identifier_root,notes
+vertTrait,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,observationID,urn:vertTrait/,rdf:type designation means we intend to pull type values 
+vertTraitObsProc,http://purl.obolibrary.org/obo/BCO_0000003,observationID,urn:vertTraitObsProc/,
+measurementDatum,http://purl.obolibrary.org/obo/IAO_0000032,observationID,urn:measurementDatum/,
+vertOrg,http://purl.obolibrary.org/obo/OBI_0100026,observationID,urn:vertOrg/,
