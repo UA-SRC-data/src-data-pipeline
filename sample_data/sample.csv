@@ -1,6 +1,6 @@
 observationID,directory,source,unit,location_name,location_type,variable_name,variable_desc,collected_on,value,medium
-1,usgs,USGS,wt. %,"36.4526,-109.1665",point,al,{concentration of elemental aluminium in soil},9/18/13,3.68,soil
-2,usgs,USGS,mg/kg,"36.4526,-109.1665",point,as,{concentration of elemental arsenic in soil},9/18/13,1.7,soil
+1,usgs,USGS,mg/kg,"36.4526,-109.1665",point,as,{concentration of elemental arsenic in topsoil},9/18/13,1.7,soil
+2,usgs,USGS,wt. %,"36.4526,-109.1665",point,al,{concentration of elemental aluminium in soil},9/18/13,3.68,soil
 3,usgs,USGS,mg/kg,"36.4526,-109.1665",point,ba,{concentration of elemental barium in soil},9/18/13,907,soil
 4,usgs,USGS,mg/kg,"36.4526,-109.1665",point,be,{concentration of elemental beryllium in soil},9/18/13,1,soil
 5,usgs,USGS,mg/kg,"36.4526,-109.1665",point,bi,{concentration of elemental bismuth in soil},9/18/13,0.08,soil

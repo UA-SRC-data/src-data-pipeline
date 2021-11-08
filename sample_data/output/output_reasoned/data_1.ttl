@@ -707,13 +707,14 @@ rdf:type rdf:type owl:DatatypeProperty ;
                                     <http://purl.obolibrary.org/obo/PATO_0000033> ,
                                     <http://purl.obolibrary.org/obo/PATO_0001241> ,
                                     <http://purl.obolibrary.org/obo/PATO_0002182> ,
-                                    <http://purl.obolibrary.org/obo/SRPDIO_1000000> ,
-                                    <http://purl.obolibrary.org/obo/SRPDIO_1000046> ;
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000002> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000048> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000232> ;
                            <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/1> ;
-                           <urn:unit> "wt. %"^^xsd:string ;
-                           <urn:value> "3.68"^^xsd:float ;
-                           <urn:variable_desc> "{concentration of elemental aluminium in soil}"^^xsd:string ;
-                           <urn:variable_name> "al"^^xsd:string .
+                           <urn:unit> "mg/kg"^^xsd:string ;
+                           <urn:value> "1.7"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental arsenic in topsoil}"^^xsd:string ;
+                           <urn:variable_name> "as"^^xsd:string .
 
 
 ###  urn:environmentalTrait/10
@@ -821,13 +822,13 @@ rdf:type rdf:type owl:DatatypeProperty ;
                                     <http://purl.obolibrary.org/obo/PATO_0000033> ,
                                     <http://purl.obolibrary.org/obo/PATO_0001241> ,
                                     <http://purl.obolibrary.org/obo/PATO_0002182> ,
-                                    <http://purl.obolibrary.org/obo/SRPDIO_1000002> ,
-                                    <http://purl.obolibrary.org/obo/SRPDIO_1000048> ;
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000000> ,
+                                    <http://purl.obolibrary.org/obo/SRPDIO_1000046> ;
                            <http://purl.obolibrary.org/obo/BFO_0000050> <urn:sample/2> ;
-                           <urn:unit> "mg/kg"^^xsd:string ;
-                           <urn:value> "1.7"^^xsd:float ;
-                           <urn:variable_desc> "{concentration of elemental arsenic in soil}"^^xsd:string ;
-                           <urn:variable_name> "as"^^xsd:string .
+                           <urn:unit> "wt. %"^^xsd:string ;
+                           <urn:value> "3.68"^^xsd:float ;
+                           <urn:variable_desc> "{concentration of elemental aluminium in soil}"^^xsd:string ;
+                           <urn:variable_name> "al"^^xsd:string .
 
 
 ###  urn:environmentalTrait/3
