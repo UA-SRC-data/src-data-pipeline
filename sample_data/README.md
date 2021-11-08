@@ -9,7 +9,8 @@ from the data_loaders repository:
 
 NOTES:
   * There are other directories with files which contain data but are either incomplete
-or i had questions about how to incorporate those datasets.
+or i had questions about how to incorporate those datasets. for now, just using the above directories.
   * I added a column/attribute called directory which corresponds to the directory from the
 data_loaders repository
-  * The column `variable_desc` i manually fixed to use ontology terms
+  * The column `variable_desc` i manually fixed to use ontology terms.. We need a lookup file
+created in data_loaders to map these.
