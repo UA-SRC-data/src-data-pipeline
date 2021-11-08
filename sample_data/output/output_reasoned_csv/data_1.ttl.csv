@@ -1,4 +1,4 @@
-observationID,directory,source,location_name,location_type,collected_on,medium,unit,variable_name,variable_desc,value,traits
+observationID,directory,source,location_name,location_type,collected_on,medium,unit,variable_name,variable_desc,value,inferred_traits
 1,usgs,USGS,"36.4526,-109.1665",point,9/18/13,soil,mg/kg,as,{concentration of elemental arsenic in topsoil},1.7,obo:SRPDIO_1000232|obo:PATO_0000033|obo:SRPDIO_1000002|obo:SRPDIO_1000048
 2,usgs,USGS,"36.4526,-109.1665",point,9/18/13,soil,wt. %,al,{concentration of elemental aluminium in soil},3.68,obo:PATO_0000033|obo:SRPDIO_1000046|obo:SRPDIO_1000000
 3,usgs,USGS,"36.4526,-109.1665",point,9/18/13,soil,mg/kg,ba,{concentration of elemental barium in soil},907.0,obo:PATO_0000033|obo:SRPDIO_1000003|obo:SRPDIO_1000049
